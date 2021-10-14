@@ -42,6 +42,51 @@ function DashboardTool () {
                             </p>
                         </li>    
                     </ul>
+                </li>      
+                <li className="dashboard__project-list-item">
+                    <div className="dashboard__project-list-item-tool">
+                        <h3 className="dashboard__project-list-item-title">
+                            Название проекта
+                        </h3>
+                        <button className="dashboard__project-list-item-delete-btn" />
+                    </div>   
+                    <ul className="dashboard__todo-list">
+                        <li className="dashboard__todo-list-item">
+                            <p className="dashboard__project-list-item-text">
+                                Нарисовать Дизайн
+                            </p>
+                        </li>    
+                    </ul>
+                </li>    
+                <li className="dashboard__project-list-item">
+                    <div className="dashboard__project-list-item-tool">
+                        <h3 className="dashboard__project-list-item-title">
+                            Название проекта
+                        </h3>
+                        <button className="dashboard__project-list-item-delete-btn" />
+                    </div>   
+                    <ul className="dashboard__todo-list">
+                        <li className="dashboard__todo-list-item">
+                            <p className="dashboard__project-list-item-text">
+                                Нарисовать Дизайн
+                            </p>
+                        </li>    
+                    </ul>
+                </li>    
+                <li className="dashboard__project-list-item">
+                    <div className="dashboard__project-list-item-tool">
+                        <h3 className="dashboard__project-list-item-title">
+                            Название проекта
+                        </h3>
+                        <button className="dashboard__project-list-item-delete-btn" />
+                    </div>   
+                    <ul className="dashboard__todo-list">
+                        <li className="dashboard__todo-list-item">
+                            <p className="dashboard__project-list-item-text">
+                                Нарисовать Дизайн
+                            </p>
+                        </li>    
+                    </ul>
                 </li>            
             </ul>
         </>

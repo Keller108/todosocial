@@ -1,13 +1,16 @@
 .footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
     width: 100%;
     max-width: 1400px;
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
-    margin: 0 auto;
     box-sizing: border-box;
-    padding: 12px 30px;
+    padding: 12px 50px;
+    margin: 0 auto;
 }
 
 .footer__author {
