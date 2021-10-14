@@ -1,3 +1,109 @@
 .register {
-    
+    width: 100%;
+    height: 100vh;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+}
+
+.form-container {
+    width: 100%;
+    max-width: 415px;
+    padding: 45px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 auto;
+    border-radius: 20px;
+    border: 1px solid #e5e5e5;
+}
+
+.popup__title {
+    font-size: 24px;
+    font-weight: bold;
+    line-height: 1.2;
+    margin-bottom: 50px;
+}
+
+.form {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    justify-content: flex-start;
+    margin: 0;
+}
+
+.form__label {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    justify-content: flex-start;
+    margin: 0;
+    margin-bottom: 35px;
+    box-sizing: border-box;
+}
+
+.form__label_hiden {
+    display: none;
+}
+
+.form__input {
+    border: none;
+    border-bottom: 1px solid #e5e5e5;
+    outline: none;
+    font-size: 16px;
+    font-weight: normal;
+    line-height: 1.2;
+    padding: 10px 0;
+    border-radius: 4px;
+    margin: 0;
+    margin-top: 10px;
+}
+
+.form__submit-btn {
+    background-color: #8CDC8F;
+    color: #fff;
+    font-size: 16px;
+    padding: 12px 40px;
+    font-weight: normal;
+    cursor: pointer;
+    border: none;
+    outline: none;
+    margin: 0;
+    box-sizing: border-box;
+    border-radius: 4px;
+    transition: all .3s;
+}
+
+.form__submit-btn:hover {
+    background-color: #6ac26d;
+}
+
+.form__text {
+    font-size: 15px;
+    font-weight: normal;
+    line-height: 1.4;
+    margin: 0;
+    margin-top: 25px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.form__goto-link {
+    text-decoration: none;
+    color: #8CDC8F;
+    font-weight: normal;
+    line-height: 1.2;
+    text-align: center;
+    transition: all .3s;
+}
+
+.form__goto-link:hover {
+    color: #6ac26d;
 }

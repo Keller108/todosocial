@@ -5,6 +5,7 @@ import Header from '../Header/Header';
 import Main from '../Main/Main';
 import Footer from '../Footer/Footer';
 import Register from'../Register/Register';
+import Login from '../Login/Login';
 
 function App() {
     return (
@@ -16,8 +17,11 @@ function App() {
                   <Main />
                   <Footer />
               </Route>
-              <Route exact path="/register">
+              <Route exact path="/signup">
                 <Register />
+              </Route>
+              <Route exact path="/signin">
+                <Login />
               </Route>
             </Switch>  
           </div>
