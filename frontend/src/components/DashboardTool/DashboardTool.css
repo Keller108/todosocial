@@ -1,0 +1,71 @@
+.dashboard-container {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 0;
+    margin: 0;
+    border-bottom: 1px solid #E5E5E5;
+}
+
+.dashboard__title {
+    font-size: 20px;
+    line-height: 1;
+    font-weight: bold;
+    margin: 0;
+}
+
+
+.dashboard-btn {
+    width: auto;
+    margin: 0;
+    padding: 10px 25px 10px 42px;
+    background: #fff;
+    background-image: url("../../images/icon-plus-green.svg");
+    color: #8CDC8F;
+    background-position: left 16px center;
+    background-repeat: no-repeat;
+    background-size: 16px;
+    border: 1px solid #8CDC8F;
+    outline: none;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: all .3s;
+}
+
+.dashboard-btn:hover {
+    background: #8CDC8F;
+    color: #fff;
+    background-image: url("../../images/icon-plus-white.svg");
+    background-position: left 16px center;
+    background-repeat: no-repeat;
+    background-size: 16px;
+}
+
+.dashboard-tool-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-content: flex-start;
+    justify-content: space-between;
+    margin: 0;
+    height: 64px;
+    box-sizing: border-box;
+}
+
+.dashboard-delete-btn {
+    padding: 8px 20px;
+    font-size: 14px;
+    line-height: 1;
+    color: #333333;
+    background-color: #fff;
+    background-image: url("../../images/delete-collection-icon.svg");
+    background-repeat: no-repeat;
+    background-size: 16px;
+    background-position: left center;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    
+}
