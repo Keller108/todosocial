@@ -2,7 +2,7 @@ import React from "react";
 import { Link } from 'react-router-dom';
 import './Form.css';
 
-function Form ({title, linkText, btnText, register}) {
+function Form ({title, linkText, btnText, register, submitTxt}) {
     return (
         <div className="form-container">
                 <h2 className="popup__title">
@@ -40,7 +40,7 @@ function Form ({title, linkText, btnText, register}) {
                     <button
                         className="form__submit-btn"
                     >
-                        Зарегистрироваться
+                        {submitTxt}
                     </button>
                 </form>
                 <p className="form__text">

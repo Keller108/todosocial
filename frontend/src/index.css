@@ -6,3 +6,11 @@
   color: #060606;
   background-color: #fff;
 }
+
+.transparent-link {
+  transition: all .3s;
+}
+
+.transparent-link:hover {
+  opacity: .7;
+}

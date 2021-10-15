@@ -87,9 +87,9 @@
     flex-direction: column;
     justify-content: flex-start;
     align-items: stretch;
-    width: calc(25% - 40px);
+    width: 24%;
     height: 100%;
-    padding: 10px 12px;
+    padding: 10px 0;
     margin: 0;
     margin-right: 20px;
 }
@@ -129,7 +129,7 @@
 }
 
 .dashboard__todo-list {
-    width: 90%;
+    width: 100%;
     display: flex;
     flex-direction: column;
     align-content: flex-start;
@@ -139,7 +139,9 @@
 }
 
 .dashboard__todo-list-item {
-    width: 100%;
+    position: relative;
+    width: 77%;
+    max-width: 190px;
     height: auto;
     display: flex;
     align-items: center;
@@ -147,8 +149,53 @@
     padding: 25px;
     list-style-type: none;
     margin: 0;
-    background-color: #ebffec;
+    margin-bottom: 12px;
+    background-color: #FAFAFA;
     border-radius: 20px;
     text-align: center;
-    
+    border: 1px solid #e5e5e5;
+}
+
+.dashboard__todo-add-btn {
+    width: 100%;
+    padding: 5px 0;
+    margin: 0 auto;
+    height: 18px;
+    margin-bottom: 12px;
+    background: #E5E5E5;
+    background-image: url('../../images/icon-plus-white.svg');
+    background-size: 8px;
+    background-repeat: no-repeat;
+    background-position: center;
+    outline: none;
+    border: #FAFAFA;
+    border-radius: 20px;
+    transition: all .3s;
+    cursor: pointer;
+}
+
+.dashboard__todo-add-btn:hover {
+    opacity: .7;
+}
+
+.dashboard__todo-list-delete-btn {
+    position: absolute;
+    top: 12px;
+    right: 12px;
+    width: 18px;
+    height: 18px;
+    outline: none;
+    border: none;
+    box-sizing: border-box;
+    background-image: url("../../images/delete-collection-icon_black.svg");
+    background-size: 12px;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: 0;
+    cursor: pointer;
+    transition: all .3s;
+}
+
+.dashboard__todo-list-delete-btn:hover {
+    opacity: .7;
 }

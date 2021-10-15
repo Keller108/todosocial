@@ -9,6 +9,7 @@ function Login () {
                 linkText='Еще не зарегистрированы?'
                 btnText='Регистрация'
                 register={false}
+                submitTxt='Войти'
             />
         </div>
     )

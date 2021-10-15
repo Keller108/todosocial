@@ -103,4 +103,8 @@
     padding: 44px 60px 60px 30px;
 }
 
-
+@media (max-width: 1200px) {
+    .profile-container {
+        max-width: 345px;
+    }
+}

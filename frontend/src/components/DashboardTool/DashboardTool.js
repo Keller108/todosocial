@@ -19,7 +19,7 @@ function DashboardTool () {
                     <h1 className="dashboard__title">
                         Моя Dashboard
                     </h1>
-                    <button className="dashboard-delete-btn">
+                    <button className="dashboard-delete-btn transparent-link" aria-label="delete button">
                         Удалить доску
                     </button>
                 </div>
@@ -31,63 +31,71 @@ function DashboardTool () {
                 <li className="dashboard__project-list-item">
                     <div className="dashboard__project-list-item-tool">
                         <h3 className="dashboard__project-list-item-title">
-                            Название проекта
+                            ToDoSocial
                         </h3>
-                        <button className="dashboard__project-list-item-delete-btn" />
+                        <button className="dashboard__project-list-item-delete-btn transparent-link" aria-label="delete button"/>
                     </div>   
                     <ul className="dashboard__todo-list">
+                        <button className="dashboard__todo-add-btn" type="button" aria-label="add an item"/>
                         <li className="dashboard__todo-list-item">
+                        <button className="dashboard__todo-list-delete-btn" type="button" aria-label="delete button"/>
                             <p className="dashboard__project-list-item-text">
                                 Нарисовать Дизайн
                             </p>
                         </li>    
                     </ul>
-                </li>      
+                </li>
                 <li className="dashboard__project-list-item">
                     <div className="dashboard__project-list-item-tool">
                         <h3 className="dashboard__project-list-item-title">
-                            Название проекта
+                            ToDoSocial
                         </h3>
-                        <button className="dashboard__project-list-item-delete-btn" />
+                        <button className="dashboard__project-list-item-delete-btn transparent-link" aria-label="delete button"/>
                     </div>   
                     <ul className="dashboard__todo-list">
+                        <button className="dashboard__todo-add-btn" type="button" aria-label="add an item"/>
                         <li className="dashboard__todo-list-item">
+                        <button className="dashboard__todo-list-delete-btn" type="button" aria-label="delete button"/>
                             <p className="dashboard__project-list-item-text">
                                 Нарисовать Дизайн
                             </p>
                         </li>    
                     </ul>
-                </li>    
+                </li>
                 <li className="dashboard__project-list-item">
                     <div className="dashboard__project-list-item-tool">
                         <h3 className="dashboard__project-list-item-title">
-                            Название проекта
+                            ToDoSocial
                         </h3>
-                        <button className="dashboard__project-list-item-delete-btn" />
+                        <button className="dashboard__project-list-item-delete-btn transparent-link" aria-label="delete button"/>
                     </div>   
                     <ul className="dashboard__todo-list">
+                        <button className="dashboard__todo-add-btn" type="button" aria-label="add an item"/>
                         <li className="dashboard__todo-list-item">
+                        <button className="dashboard__todo-list-delete-btn" type="button" aria-label="delete button"/>
                             <p className="dashboard__project-list-item-text">
                                 Нарисовать Дизайн
                             </p>
                         </li>    
                     </ul>
-                </li>    
+                </li>
                 <li className="dashboard__project-list-item">
                     <div className="dashboard__project-list-item-tool">
                         <h3 className="dashboard__project-list-item-title">
-                            Название проекта
+                            ToDoSocial
                         </h3>
-                        <button className="dashboard__project-list-item-delete-btn" />
+                        <button className="dashboard__project-list-item-delete-btn transparent-link" aria-label="delete button"/>
                     </div>   
                     <ul className="dashboard__todo-list">
+                        <button className="dashboard__todo-add-btn" type="button" aria-label="add an item"/>
                         <li className="dashboard__todo-list-item">
+                        <button className="dashboard__todo-list-delete-btn" type="button" aria-label="delete button"/>
                             <p className="dashboard__project-list-item-text">
                                 Нарисовать Дизайн
                             </p>
                         </li>    
                     </ul>
-                </li>            
+                </li>               
             </ul>
         </>
     )

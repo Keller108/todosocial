@@ -13,7 +13,7 @@ function Header() {
                         Привет, Никита!
                     </p>
                 </li>
-                <li className="header__auth-container-item">
+                <li className="header__auth-container-item transparent-link">
                     <button className="header__auth-container-logout">
                         Выйти
                     </button>

@@ -19,7 +19,7 @@ function Main () {
                     </p>
                 </div>
                 <div className="profile-container__border-line"></div>
-                <button className="profile-container__edit-avatar-btn">
+                <button className="profile-container__edit-avatar-btn transparent-link">
                     Изменить аватар
                 </button>
             </div>

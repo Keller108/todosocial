@@ -11,6 +11,7 @@ function Register () {
                 linkText='Уже зарегистрированы?'
                 btnText='Войти'
                 register={true}
+                submitTxt='Зарегистрироваться'
             />
         </div>
     )
