@@ -140,7 +140,6 @@
 
 .dashboard__todo-list-item {
     position: relative;
-    width: 77%;
     max-width: 190px;
     height: auto;
     display: flex;
@@ -198,4 +197,11 @@
 
 .dashboard__todo-list-delete-btn:hover {
     opacity: .7;
+}
+
+@media (max-width: 1200px) {
+    .dashboard__todo-list-item {
+        width: unset;
+        max-width: 150px;
+    }
 }

@@ -58,19 +58,19 @@
 }
 
 .profile-container__title {
-    font-size: 16;
+    font-size: 16px;
     font-weight: 500;
     line-height: 1.2;
     margin: 0;
-    margin-bottom: 15px;
+    margin-bottom: 25px;
 }
 
 .profile-container__name {
-    font-size: 16;
+    font-size: 16px;
     font-weight: 500;
     line-height: 1.4;
     margin: 0;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
 }
 
 .profile-container__border-line {
