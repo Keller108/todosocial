@@ -14,3 +14,7 @@
 .transparent-link:hover {
   opacity: .7;
 }
+
+#root {
+  margin: 0 auto;
+}

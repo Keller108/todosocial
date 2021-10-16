@@ -186,6 +186,7 @@
     outline: none;
     border: none;
     box-sizing: border-box;
+    background-color: rgba(0,0,0,0);
     background-image: url("../../images/delete-collection-icon_black.svg");
     background-size: 12px;
     background-position: center;
@@ -203,5 +204,12 @@
     .dashboard__todo-list-item {
         width: unset;
         max-width: 150px;
+    }
+}
+
+@media (max-width: 940px) {
+    .dashboard__project-list {
+        align-items: center;
+        justify-content: center;
     }
 }

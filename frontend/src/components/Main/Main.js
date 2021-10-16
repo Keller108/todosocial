@@ -1,6 +1,6 @@
 import React from "react";
 import './Main.css';
-import imagePath from '../../images/blank-avatar.jpg';
+import imagePath from '../../images/nick-photo.jpg';
 import DashboardTool from "../DashboardTool/DashboardTool";
 
 function Main () {

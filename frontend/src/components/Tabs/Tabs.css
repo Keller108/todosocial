@@ -1,0 +1,39 @@
+.dashboard__tabs {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    margin-bottom: 50px;
+    padding: 10px;
+    box-sizing: border-box;
+    list-style-type: none;
+}
+
+.dashboard__tab-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.tab-btn {
+    width: 38px;
+    height: 38px;
+    margin: 0;
+    box-sizing: border-box;
+    outline: none;
+    border: 1px solid #8CDC8F;
+    background-color: #fff;
+    border-radius: 50%;
+    margin-right: 20px;
+}
+
+.tab-btn_active {
+    border: none;
+    background-color: #8CDC8F; 
+}
