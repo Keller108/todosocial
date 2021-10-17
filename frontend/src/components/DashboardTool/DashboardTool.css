@@ -171,6 +171,7 @@
     border-radius: 20px;
     transition: all .3s;
     cursor: pointer;
+    font-size: 15px;
 }
 
 .dashboard__todo-add-btn:hover {
